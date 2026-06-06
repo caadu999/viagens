@@ -1,0 +1,22 @@
+.titulo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 800px;
+  gap: 16px;
+
+  h1 {
+    font-size: 3em;
+    font-weight: 600;
+  }
+}
+
+.titulo__mensagem {
+  text-transform: uppercase;
+  color: #5e5e5e;
+}
+
+.titulo__descricao {
+  font-size: 1.3em;
+  color: rgb(66, 66, 66);
+}
